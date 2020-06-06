@@ -8,7 +8,7 @@ This project was actually a competition on kaggle between the students in my yea
 2) We are ranked by our accuracy on the whole test set (3000) examples. After this last phase I was still ranked 1st in the competition with an accuracy of 70.76%.
 
 
-###Description:
+### Description:
 
 In the surgical mask detection task, participants have to discriminate between utterances with and without surgical masks. The system could be useful in the context of the COVID-19 pandemic, by allowing the automatic verification of surgical mask wearing from speech.
 
@@ -94,7 +94,7 @@ I have trained the model on the training data (augmented) for like 100 epochs an
 
 I have taken into consideration the predictions of 6 of my trained models. Their accuracies on kaggle (on the test set) ranged from 69% to 71.6%. My prediction for each example in the test set was an average of the predictions of those 6 models (before rounding to 0/1 values). The combined accuracy, on kaggle, is 73.22% and the final predictions should be more consistent than say if I used only the model with 71.66% accuracy. 
 
-I am on the **1st** place in the competition on the public leaderboard. When the final standings are revealed, we will be ranked by our model’s accuracy on the whole test set (3000 examples) instead of only a subset (1000 examples).
+I am int the **1st** place in the competition on the public leaderboard. When the final standings are revealed, we will be ranked by our model’s accuracy on the whole test set (3000 examples) instead of only a subset (1000 examples).
 
 ![kaggle_before](https://user-images.githubusercontent.com/48453930/83947930-cd017280-a822-11ea-9850-1d42bcb06974.png)
 
